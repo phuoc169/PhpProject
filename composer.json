@@ -1,0 +1,15 @@
+{
+    "name": "phuoc-pc/doan-php",
+    "authors": [
+        {
+            "name": "Phuoc",
+            "email": "nguyendaiphuoc169@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    }
+}
