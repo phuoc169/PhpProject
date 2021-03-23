@@ -1,9 +1,15 @@
 <?php
     namespace app\Controllers;
-    class ProductController{
-        public function index()
+
+use app\Router;
+
+class ProductController{
+        public function index(Router $router)
         {
-            echo "Đây là trang index";
+            $products = $router->db->getProducts();
+            echo $router->RenderView('products/index',[
+                'products' => $products
+            ]);
         }
         public function create()
         {
