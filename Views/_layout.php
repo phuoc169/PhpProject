@@ -4,7 +4,7 @@
             <div class="popup_banner">
                 <span class="popup_off_banner">×</span>
                 <div class="banner_popup_area">
-                        <img src="/DOANPHP/Src/img/banner/pop-banner.jpg" alt="">
+                        <img src="/img/banner/pop-banner.jpg" alt="">
                 </div>
             </div>
             <!-- Banner Popup End -->
@@ -46,8 +46,8 @@
                                 <li><span>Language</span> <a href="#">English<i class="lnr lnr-chevron-down"></i></a>
                                     <!-- Dropdown Start -->
                                     <ul class="ht-dropdown">
-                                        <li><a href="#"><img src="/DOANPHP/Src/img/header/1.jpg" alt="language-selector">English</a></li>
-                                        <li><a href="#"><img src="/DOANPHP/Src/img/header/2.jpg" alt="language-selector">Francis</a></li>
+                                        <li><a href="#"><img src="/img/header/1.jpg" alt="language-selector">English</a></li>
+                                        <li><a href="#"><img src="/img/header/2.jpg" alt="language-selector">Francis</a></li>
                                     </ul>
                                     <!-- Dropdown End -->
                                 </li>
@@ -81,7 +81,7 @@
                         <div class="row align-items-center no-gutters">
                             <div class="col-lg-3 col-md-12">
                                 <div class="logo mb-all-30">
-                                    <a href="index.html"><img src="/DOANPHP/Src/img/logo/logo.png" alt="logo-image"></a>
+                                    <a href="index.html"><img src="/img/logo/logo.png" alt="logo-image"></a>
                                 </div>
                             </div>
                             <!-- Categorie Search Box Start Here -->
@@ -135,7 +135,7 @@
                                                     <!-- Cart Box Start -->
                                                     <div class="single-cart-box">
                                                         <div class="cart-img">
-                                                            <a href="#"><img src="/DOANPHP/Src/img/products/1.jpg" alt="cart-image"></a>
+                                                            <a href="#"><img src="/img/products/1.jpg" alt="cart-image"></a>
                                                             <span class="pro-quantity">1X</span>
                                                         </div>
                                                         <div class="cart-content">
@@ -150,7 +150,7 @@
                                                     <!-- Cart Box Start -->
                                                     <div class="single-cart-box">
                                                         <div class="cart-img">
-                                                            <a href="#"><img src="/DOANPHP/Src/img/products/2.jpg" alt="cart-image"></a>
+                                                            <a href="#"><img src="/img/products/2.jpg" alt="cart-image"></a>
                                                             <span class="pro-quantity">1X</span>
                                                         </div>
                                                         <div class="cart-content">
@@ -390,7 +390,7 @@
                             <div class="vertical-menu mb-all-30">
                                 <nav>
                                     <ul class="vertical-menu-list">
-                                        <li class=""><a href="shop.html"><span><img src="/DOANPHP/Src/img/vertical-menu/1.png" alt="menu-icon"></span>Automotive & Motorcycle<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                        <li class=""><a href="shop.html"><span><img src="/img/vertical-menu/1.png" alt="menu-icon"></span>Automotive & Motorcycle<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 
                                             <ul class="ht-dropdown mega-child">
                                                 <li><a href="shop.html">Office chair <i class="fa fa-angle-right"></i></a>
@@ -418,7 +418,7 @@
                                             </ul>
                                             <!-- category submenu end-->
                                         </li>
-                                        <li><a href="shop.html"><span><img src="/DOANPHP/Src/img/vertical-menu/3.png" alt="menu-icon"></span>Sports & Outdoors<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                        <li><a href="shop.html"><span><img src="/img/vertical-menu/3.png" alt="menu-icon"></span>Sports & Outdoors<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                                             <!-- Vertical Mega-Menu Start -->
                                             <ul class="ht-dropdown megamenu first-megamenu">
                                                 <!-- Single Column Start -->
@@ -459,15 +459,15 @@
                                                 <!-- Single Column End -->
                                                 <!-- Single Megamenu Image Start -->
                                                 <li class="megamenu-img">
-                                                    <a href="shop.html"><img src="/DOANPHP/Src/img/vertical-menu/sub-img1.jpg" alt="menu-image"></a>
-                                                    <a href="shop.html"><img src="/DOANPHP/Src/img/vertical-menu/sub-img2.jpg" alt="menu-image"></a>
-                                                    <a href="shop.html"><img src="/DOANPHP/Src/img/vertical-menu/sub-img3.jpg" alt="menu-image"></a>
+                                                    <a href="shop.html"><img src="/img/vertical-menu/sub-img1.jpg" alt="menu-image"></a>
+                                                    <a href="shop.html"><img src="/img/vertical-menu/sub-img2.jpg" alt="menu-image"></a>
+                                                    <a href="shop.html"><img src="/img/vertical-menu/sub-img3.jpg" alt="menu-image"></a>
                                                 </li>
                                                 <!-- Single Megamenu Image End -->
                                             </ul>
                                             <!-- Vertical Mega-Menu End -->
                                         </li>
-                                        <li><a href="shop.html"><span><img src="/DOANPHP/Src/img/vertical-menu/6.png" alt="menu-icon"></span>Fashion<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                        <li><a href="shop.html"><span><img src="/img/vertical-menu/6.png" alt="menu-icon"></span>Fashion<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                                             <!-- Vertical Mega-Menu Start -->
                                             <ul class="ht-dropdown megamenu megamenu-two">
                                                 <!-- Single Column Start -->
@@ -495,7 +495,7 @@
                                             </ul>
                                             <!-- Vertical Mega-Menu End -->
                                         </li>
-                                        <li><a href="shop.html"><span><img src="/DOANPHP/Src/img/vertical-menu/7.png" alt="menu-icon"></span>Home & Kitchen<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                        <li><a href="shop.html"><span><img src="/img/vertical-menu/7.png" alt="menu-icon"></span>Home & Kitchen<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                                             <!-- Vertical Mega-Menu Start -->
                                             <ul class="ht-dropdown megamenu megamenu-two">
                                                 <!-- Single Column Start -->
@@ -523,7 +523,7 @@
                                             </ul>
                                             <!-- Vertical Mega-Menu End --> 
                                         </li>
-                                        <li><a href="shop.html"><span><img src="/DOANPHP/Src/img/vertical-menu/4.png" alt="menu-icon"></span>Phones & Tablets<i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        <li><a href="shop.html"><span><img src="/img/vertical-menu/4.png" alt="menu-icon"></span>Phones & Tablets<i class="fa fa-angle-right" aria-hidden="true"></i>
                                         </a>
                                             <!-- Vertical Mega-Menu Start -->
                                             <ul class="ht-dropdown megamenu megamenu-two">
@@ -552,7 +552,7 @@
                                             </ul>
                                             <!-- Vertical Mega-Menu End -->
                                         </li>
-                                        <li><a href="shop.html"><span><img src="/DOANPHP/Src/img/vertical-menu/6.png" alt="menu-icon"></span>TV & Video<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                        <li><a href="shop.html"><span><img src="/img/vertical-menu/6.png" alt="menu-icon"></span>TV & Video<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                                             <!-- Vertical Mega-Menu Start -->
                                             <ul class="ht-dropdown megamenu megamenu-two">
                                                 <!-- Single Column Start -->
@@ -580,17 +580,17 @@
                                             </ul>
                                             <!-- Vertical Mega-Menu End -->
                                         </li>
-                                        <li><a href="shop.html"><span><img src="/DOANPHP/Src/img/vertical-menu/5.png" alt="menu-icon"></span>Beauty</a>
+                                        <li><a href="shop.html"><span><img src="/img/vertical-menu/5.png" alt="menu-icon"></span>Beauty</a>
                                         </li>
-                                        <li><a href="shop.html"><span><img src="/DOANPHP/Src/img/vertical-menu/8.png" alt="menu-icon"></span>Fruits & Veggies</a></li>
-                                        <li><a href="shop.html"><span><img src="/DOANPHP/Src/img/vertical-menu/9.png" alt="menu-icon"></span>Computer & Laptop</a></li>
-                                        <li><a href="shop.html"><span><img src="/DOANPHP/Src/img/vertical-menu/10.png" alt="menu-icon"></span>Meat & Seafood</a></li>
+                                        <li><a href="shop.html"><span><img src="/img/vertical-menu/8.png" alt="menu-icon"></span>Fruits & Veggies</a></li>
+                                        <li><a href="shop.html"><span><img src="/img/vertical-menu/9.png" alt="menu-icon"></span>Computer & Laptop</a></li>
+                                        <li><a href="shop.html"><span><img src="/img/vertical-menu/10.png" alt="menu-icon"></span>Meat & Seafood</a></li>
                                         <!-- More Categoies Start -->
                                         <li id="cate-toggle" class="category-menu v-cat-menu">
                                             <ul>
                                                 <li class="has-sub"><a href="#">More Categories</a>
                                                     <ul class="category-sub">
-                                                        <li><a href="shop.html"><span><img src="/DOANPHP/Src/img/vertical-menu/11.png" alt="menu-icon"></span>Accessories</a></li>
+                                                        <li><a href="shop.html"><span><img src="/img/vertical-menu/11.png" alt="menu-icon"></span>Accessories</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -610,8 +610,8 @@
                     <div class="slider-wrapper theme-default">
                         <!-- Slider Background  Image Start-->
                         <div id="slider" class="nivoSlider">
-                            <a href="shop.html"><img src="/DOANPHP/Src/img/slider/5.jpg" data-thumb="/DOANPHP/Src/img/slider/5.jpg" alt="" title="#htmlcaption"></a>
-                            <a href="shop.html"><img src="/DOANPHP/Src/img/slider/6.jpg" data-thumb="/DOANPHP/Src/img/slider/6.jpg" alt="" title="#htmlcaption2"></a>
+                            <a href="shop.html"><img src="/img/slider/5.jpg" data-thumb="/img/slider/5.jpg" alt="" title="#htmlcaption"></a>
+                            <a href="shop.html"><img src="/img/slider/6.jpg" data-thumb="/img/slider/6.jpg" alt="" title="#htmlcaption2"></a>
                         </div>
                         <!-- Slider Background  Image Start-->
                     </div>
@@ -623,7 +623,7 @@
             <div class="image-banner pb-30 off-white-bg">
                 <div class="container">
                     <div class="col-img">
-                        <a href="#"><img src="/DOANPHP/Src/img/banner/h1-banner.jpg" alt="image banner"></a>
+                        <a href="#"><img src="/img/banner/h1-banner.jpg" alt="image banner"></a>
                     </div>
                 </div>
                 <!-- Container End -->
@@ -735,7 +735,7 @@
                                         </li>
                                     </ul>
                                     <div class="payment mt-25 bdr-top pt-30">
-                                        <a href="#"><img class="img" src="/DOANPHP/Src/img/payment/1.png" alt="payment-image"></a>
+                                        <a href="#"><img class="img" src="/img/payment/1.png" alt="payment-image"></a>
                                     </div>                                   
                                 </div>
                             </div>
@@ -756,8 +756,8 @@
                                 <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
                                 <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><img src="/DOANPHP/Src/img/icon/social-img1.png" alt="google play"></a></li>
-                                <li><a href="#"><img src="/DOANPHP/Src/img/icon/social-img2.png" alt="app store"></a></li>
+                                <li><a href="#"><img src="/img/icon/social-img1.png" alt="google play"></a></li>
+                                <li><a href="#"><img src="/img/icon/social-img2.png" alt="app store"></a></li>
                             </ul>
                     </div>
                 </div>

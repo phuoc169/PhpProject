@@ -7,36 +7,36 @@
     <title>Home-3 || Truemart Responsive Html5 Ecommerce Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicons -->
-    <link rel="shortcut icon" href="/DOANPHP/Src/img/favicon.ico">
+    <link rel="shortcut icon" href="/img/favicon.ico">
     <!-- Fontawesome css -->
-    <link rel="stylesheet" href="/DOANPHP/Src/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
     <!-- Ionicons css -->
-    <link rel="stylesheet" href="/DOANPHP/Src/css/ionicons.min.css">
+    <link rel="stylesheet" href="/css/ionicons.min.css">
     <!-- linearicons css -->
-    <link rel="stylesheet" href="/DOANPHP/Src/css/linearicons.css">
+    <link rel="stylesheet" href="/css/linearicons.css">
     <!-- Nice select css -->
-    <link rel="stylesheet" href="/DOANPHP/Src/css/nice-select.css">
+    <link rel="stylesheet" href="/css/nice-select.css">
     <!-- Jquery fancybox css -->
-    <link rel="stylesheet" href="/DOANPHP/Src/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="/css/jquery.fancybox.css">
     <!-- Jquery ui price slider css -->
-    <link rel="stylesheet" href="/DOANPHP/Src/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="/css/jquery-ui.min.css">
     <!-- Meanmenu css -->
-    <link rel="stylesheet" href="/DOANPHP/Src/css/meanmenu.min.css">
+    <link rel="stylesheet" href="/css/meanmenu.min.css">
     <!-- Nivo slider css -->
-    <link rel="stylesheet" href="/DOANPHP/Src/css/nivo-slider.css">
+    <link rel="stylesheet" href="/css/nivo-slider.css">
     <!-- Owl carousel css -->
-    <link rel="stylesheet" href="/DOANPHP/Src/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
     <!-- Bootstrap css -->
-    <link rel="stylesheet" href="/DOANPHP/Src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <!-- Custom css -->
-    <link rel="stylesheet" href="/DOANPHP/Src/css/default.css">
+    <link rel="stylesheet" href="/css/default.css">
     <!-- Main css -->
-    <link rel="stylesheet" href="/DOANPHP/Src/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <!-- Responsive css -->
-    <link rel="stylesheet" href="/DOANPHP/Src/css/responsive.css">
+    <link rel="stylesheet" href="/css/responsive.css">
 
     <!-- Modernizer js -->
-    <script src="/DOANPHP/Src/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="/js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
 
 <body>
@@ -48,528 +48,10 @@
     <div class="wrapper">
        
         <!-- Trending Products End Here -->
-        <div class="trendig-product pb-10 off-white-bg">
-            <div class="container">
-                <div class="trending-box">
-                <div class="title-box">
-                    <h2>Trending Styles</h2>
-                </div>
-                <div class="product-list-box">
-                    <!-- Arrivals Product Activation Start Here -->
-                    <div class="trending-pro-active owl-carousel">
-                        <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/1.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/2.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Work Lamp Silver Proin</a></h4>
-                                    <p><span class="price">$320.45</span> <del class="prev-price">$330.50</del></p>
-                                    <div class="label-product l_sale">15<span class="symbol-percent">%</span></div>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                         <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/3.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/4.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Gpoly and Bark Eames Style</a></h4>
-                                    <p><span class="price">$150.30</span> <del class="prev-price">$105.50</del></p>
-                                    <div class="label-product l_sale">22<span class="symbol-percent">%</span></div>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                        <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/5.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/6.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Poly and Bark Vortex Side</a></h4>
-                                    <p><span class="price">$90.45</span></p>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                         <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/8.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/9.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Eames and Bark  Style</a></h4>
-                                    <p><span class="price">$90.45</span><del class="prev-price">$100.50</del></p>
-                                    <div class="label-product l_sale">20<span class="symbol-percent">%</span></div>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                        <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/11.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/12.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Eames and Vortex Side</a></h4>
-                                    <p><span class="price">$160.45</span></p>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                         <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/15.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/16.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Bark Vortex Side Eames</a></h4>
-                                    <p><span class="price">$84.45</span></p>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                        <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/13.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/14.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Poly and Bark Vortex Side</a></h4>
-                                    <p><span class="price">$95.45</span></p>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                         <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/1.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/7.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Poly and Bark Vortex Side</a></h4>
-                                    <p><span class="price">$84.45</span></p>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                    </div>
-                    <!-- Arrivals Product Activation End Here -->                    
-                </div>
-                <!-- main-product-tab-area-->
-                </div>
-            </div>
-            <!-- Container End -->
-        </div>
+        <?php echo $productbyCategory?>
         <!-- Trending Products End Here -->
         <!-- Trending Products End Here -->
-        <div class="trendig-product pb-100 off-white-bg pb-sm-60">
-            <div class="container">
-                <div class="trending-box">
-                <div class="title-box">
-                    <h2>Best Selling</h2>
-                </div>
-                <div class="product-list-box">
-                    <!-- Arrivals Product Activation Start Here -->
-                    <div class="trending-pro-active owl-carousel">
-                        <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/17.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/18.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Eames and Vortex Side</a></h4>
-                                    <p><span class="price">$160.45</span></p>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->                        
-                        <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/19.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/20.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Work Lamp Silver Proin</a></h4>
-                                    <p><span class="price">$320.45</span> <del class="prev-price">$330.50</del></p>
-                                    <div class="label-product l_sale">15<span class="symbol-percent">%</span></div>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                         <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/21.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/22.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Gpoly and Bark Eames Style</a></h4>
-                                    <p><span class="price">$150.30</span> <del class="prev-price">$105.50</del></p>
-                                    <div class="label-product l_sale">22<span class="symbol-percent">%</span></div>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                        <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/22.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/23.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Poly and Bark Vortex Side</a></h4>
-                                    <p><span class="price">$90.45</span></p>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                         <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/8.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/9.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Eames and Bark  Style</a></h4>
-                                    <p><span class="price">$90.45</span><del class="prev-price">$100.50</del></p>
-                                    <div class="label-product l_sale">20<span class="symbol-percent">%</span></div>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                         <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/15.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/16.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Bark Vortex Side Eames</a></h4>
-                                    <p><span class="price">$84.45</span></p>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                        <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/13.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/14.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Poly and Bark Vortex Side</a></h4>
-                                    <p><span class="price">$95.45</span></p>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                         <!-- Single Product Start -->
-                        <div class="single-product">
-                            <!-- Product Image Start -->
-                            <div class="pro-img">
-                                <a href="product.html">
-                                    <img class="primary-img" src="/DOANPHP/Src/img/products/1.jpg" alt="single-product">
-                                    <img class="secondary-img" src="/DOANPHP/Src/img/products/7.jpg" alt="single-product">
-                                </a>
-                                <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
-                            </div>
-                            <!-- Product Image End -->
-                            <!-- Product Content Start -->
-                            <div class="pro-content">
-                                <div class="pro-info">
-                                    <h4><a href="product.html">Poly and Bark Vortex Side</a></h4>
-                                    <p><span class="price">$84.45</span></p>
-                                </div>
-                                <div class="pro-actions">
-                                    <div class="actions-primary">
-                                        <a href="cart.html" title="Add to Cart"> + Add To Cart</a>
-                                    </div>
-                                    <div class="actions-secondary">
-                                        <a href="compare.html" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                        <a href="wishlist.html" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Content End -->
-                        </div>
-                        <!-- Single Product End -->
-                    </div>
-                    <!-- Arrivals Product Activation End Here -->                    
-                </div>
-                <!-- main-product-tab-area-->
-                </div>
-            </div>
-            <!-- Container End -->
-        </div>
+        
         <!-- Trending Products End Here -->
         <!-- Hot Deal Products Start Here -->
         <div class="hot-deal-products pt-100 pt-sm-60">
@@ -588,26 +70,26 @@
                                 <!-- Thumbnail Large Image start -->
                                 <div class="tab-content">
                                     <div id="thumb1" class="tab-pane fade show active">
-                                        <a data-fancybox="images" href="/DOANPHP/Src/img/products/35.jpg"><img src="/DOANPHP/Src/img/products/35.jpg" alt="product-view"></a>
+                                        <a data-fancybox="images" href="/img/products/35.jpg"><img src="/img/products/35.jpg" alt="product-view"></a>
                                     </div>
                                     <div id="thumb2" class="tab-pane fade">
-                                        <a data-fancybox="images" href="/DOANPHP/Src/img/products/13.jpg"><img src="/DOANPHP/Src/img/products/13.jpg" alt="product-view"></a>
+                                        <a data-fancybox="images" href="/img/products/13.jpg"><img src="/img/products/13.jpg" alt="product-view"></a>
                                     </div>
                                     <div id="thumb3" class="tab-pane fade">
-                                        <a data-fancybox="images" href="/DOANPHP/Src/img/products/15.jpg"><img src="/DOANPHP/Src/img/products/15.jpg" alt="product-view"></a>
+                                        <a data-fancybox="images" href="/img/products/15.jpg"><img src="/img/products/15.jpg" alt="product-view"></a>
                                     </div>
                                     <div id="thumb4" class="tab-pane fade">
-                                        <a data-fancybox="images" href="/DOANPHP/Src/img/products/4.jpg"><img src="/DOANPHP/Src/img/products/4.jpg" alt="product-view"></a>
+                                        <a data-fancybox="images" href="/img/products/4.jpg"><img src="/img/products/4.jpg" alt="product-view"></a>
                                     </div>
                                 </div>
                                 <!-- Thumbnail Large Image End -->
                                 <!-- Thumbnail Image End -->
                                 <div class="product-thumbnail">
                                     <div class="pro-tab-menu nav tabs-area" role="tablist">
-                                        <a class="active" data-toggle="tab" href="#thumb1"><img src="/DOANPHP/Src/img/products/35.jpg" alt="product-thumbnail"></a>
-                                        <a data-toggle="tab" href="#thumb2"><img src="/DOANPHP/Src/img/products/13.jpg" alt="product-thumbnail"></a>
-                                        <a data-toggle="tab" href="#thumb3"><img src="/DOANPHP/Src/img/products/15.jpg" alt="product-thumbnail"></a>
-                                        <a data-toggle="tab" href="#thumb4"><img src="/DOANPHP/Src/img/products/4.jpg" alt="product-thumbnail"></a>
+                                        <a class="active" data-toggle="tab" href="#thumb1"><img src="/img/products/35.jpg" alt="product-thumbnail"></a>
+                                        <a data-toggle="tab" href="#thumb2"><img src="/img/products/13.jpg" alt="product-thumbnail"></a>
+                                        <a data-toggle="tab" href="#thumb3"><img src="/img/products/15.jpg" alt="product-thumbnail"></a>
+                                        <a data-toggle="tab" href="#thumb4"><img src="/img/products/4.jpg" alt="product-thumbnail"></a>
                                     </div>
                                 </div>
                                 <!-- Thumbnail image end -->
@@ -642,26 +124,26 @@
                                 <!-- Thumbnail Large Image start -->
                                 <div class="tab-content">
                                     <div id="thumb11" class="tab-pane fade show active">
-                                        <a data-fancybox="images" href="/DOANPHP/Src/img/products/21.jpg"><img src="/DOANPHP/Src/img/products/21.jpg" alt="product-view"></a>
+                                        <a data-fancybox="images" href="/img/products/21.jpg"><img src="/img/products/21.jpg" alt="product-view"></a>
                                     </div>
                                     <div id="thumb21" class="tab-pane fade">
-                                        <a data-fancybox="images" href="/DOANPHP/Src/img/products/22.jpg"><img src="/DOANPHP/Src/img/products/22.jpg" alt="product-view"></a>
+                                        <a data-fancybox="images" href="/img/products/22.jpg"><img src="/img/products/22.jpg" alt="product-view"></a>
                                     </div>
                                     <div id="thumb31" class="tab-pane fade">
-                                        <a data-fancybox="images" href="/DOANPHP/Src/img/products/23.jpg"><img src="/DOANPHP/Src/img/products/23.jpg" alt="product-view"></a>
+                                        <a data-fancybox="images" href="/img/products/23.jpg"><img src="/img/products/23.jpg" alt="product-view"></a>
                                     </div>
                                     <div id="thumb41" class="tab-pane fade">
-                                        <a data-fancybox="images" href="/DOANPHP/Src/img/products/24.jpg"><img src="/DOANPHP/Src/img/products/24.jpg" alt="product-view"></a>
+                                        <a data-fancybox="images" href="/img/products/24.jpg"><img src="/img/products/24.jpg" alt="product-view"></a>
                                     </div>
                                 </div>
                                 <!-- Thumbnail Large Image End -->
                                 <!-- Thumbnail Image End -->
                                 <div class="product-thumbnail">
                                     <div class="pro-tab-menu nav tabs-area" role="tablist">
-                                        <a class="active" data-toggle="tab" href="#thumb11"><img src="/DOANPHP/Src/img/products/21.jpg" alt="product-thumbnail"></a>
-                                        <a data-toggle="tab" href="#thumb21"><img src="/DOANPHP/Src/img/products/22.jpg" alt="product-thumbnail"></a>
-                                        <a data-toggle="tab" href="#thumb31"><img src="/DOANPHP/Src/img/products/23.jpg" alt="product-thumbnail"></a>
-                                        <a data-toggle="tab" href="#thumb41"><img src="/DOANPHP/Src/img/products/24.jpg" alt="product-thumbnail"></a>
+                                        <a class="active" data-toggle="tab" href="#thumb11"><img src="/img/products/21.jpg" alt="product-thumbnail"></a>
+                                        <a data-toggle="tab" href="#thumb21"><img src="/img/products/22.jpg" alt="product-thumbnail"></a>
+                                        <a data-toggle="tab" href="#thumb31"><img src="/img/products/23.jpg" alt="product-thumbnail"></a>
+                                        <a data-toggle="tab" href="#thumb41"><img src="/img/products/24.jpg" alt="product-thumbnail"></a>
                                     </div>
                                 </div>
                                 <!-- Thumbnail image end -->
@@ -702,36 +184,36 @@
             <div class="container banner-2">
                 <div class="banner-box">
                     <div class="col-img">
-                        <a href="#"><img src="/DOANPHP/Src/img/banner/banner3-1.jpg" alt="banner 3"></a>
+                        <a href="#"><img src="/img/banner/banner3-1.jpg" alt="banner 3"></a>
                     </div>
                     <div class="col-img">
-                        <a href="#"><img src="/DOANPHP/Src/img/banner/banner3-2.jpg" alt="banner 3"></a>
-                    </div>
-                </div>
-                <div class="banner-box">
-                    <div class="col-img">
-                        <a href="#"><img src="/DOANPHP/Src/img/banner/banner3-3.jpg" alt="banner 3"></a>
+                        <a href="#"><img src="/img/banner/banner3-2.jpg" alt="banner 3"></a>
                     </div>
                 </div>
                 <div class="banner-box">
                     <div class="col-img">
-                        <a href="#"><img src="/DOANPHP/Src/img/banner/banner3-4.jpg" alt="banner 3"></a>
-                    </div>
-                    <div class="col-img">
-                        <a href="#"><img src="/DOANPHP/Src/img/banner/banner3-5.jpg" alt="banner 3"></a>
+                        <a href="#"><img src="/img/banner/banner3-3.jpg" alt="banner 3"></a>
                     </div>
                 </div>
                 <div class="banner-box">
                     <div class="col-img">
-                        <a href="#"><img src="/DOANPHP/Src/img/banner/banner3-6.jpg" alt="banner 3"></a>
+                        <a href="#"><img src="/img/banner/banner3-4.jpg" alt="banner 3"></a>
+                    </div>
+                    <div class="col-img">
+                        <a href="#"><img src="/img/banner/banner3-5.jpg" alt="banner 3"></a>
                     </div>
                 </div>
                 <div class="banner-box">
                     <div class="col-img">
-                        <a href="#"><img src="/DOANPHP/Src/img/banner/banner3-7.jpg" alt="banner 3"></a>
+                        <a href="#"><img src="/img/banner/banner3-6.jpg" alt="banner 3"></a>
+                    </div>
+                </div>
+                <div class="banner-box">
+                    <div class="col-img">
+                        <a href="#"><img src="/img/banner/banner3-7.jpg" alt="banner 3"></a>
                     </div>
                     <div class="col-img">
-                        <a href="#"><img src="/DOANPHP/Src/img/banner/banner3-8.jpg" alt="banner 3"></a>
+                        <a href="#"><img src="/img/banner/banner3-8.jpg" alt="banner 3"></a>
                     </div>
                 </div>
             </div>
@@ -785,8 +267,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/1.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/2.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/1.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/2.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -817,8 +299,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/3.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/4.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/3.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/4.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -853,8 +335,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/5.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/6.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/5.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/6.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -885,8 +367,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/8.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/9.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/8.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/9.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -921,8 +403,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/11.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/12.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/11.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/12.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -953,8 +435,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/15.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/16.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/15.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/16.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -989,8 +471,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/13.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/14.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/13.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/14.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1021,8 +503,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/1.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/7.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/1.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/7.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1064,8 +546,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/42.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/43.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/42.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/43.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1096,8 +578,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/40.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/41.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/40.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/41.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1132,8 +614,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/39.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/38.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/39.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/38.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1164,8 +646,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/36.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/37.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/36.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/37.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1200,8 +682,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/35.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/36.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/35.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/36.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1232,8 +714,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/34.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/35.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/34.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/35.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1268,8 +750,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/32.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/33.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/32.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/33.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1300,8 +782,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/1.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/7.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/1.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/7.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1343,8 +825,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/43.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/42.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/43.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/42.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1375,8 +857,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/41.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/39.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/41.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/39.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1411,8 +893,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/5.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/6.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/5.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/6.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1443,8 +925,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/9.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/10.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/9.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/10.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1479,8 +961,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/11.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/12.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/11.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/12.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1511,8 +993,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/3.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/4.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/3.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/4.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1547,8 +1029,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/43.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/42.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/43.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/42.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1579,8 +1061,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/1.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/7.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/1.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/7.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1622,8 +1104,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/17.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/18.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/17.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/18.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1654,8 +1136,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/19.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/20.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/19.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/20.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1690,8 +1172,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/20.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/21.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/20.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/21.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1722,8 +1204,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/21.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/22.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/21.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/22.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1758,8 +1240,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/23.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/24.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/23.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/24.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1790,8 +1272,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/24.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/25.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/24.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/25.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1826,8 +1308,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/26.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/27.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/26.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/27.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1858,8 +1340,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/28.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/29.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/28.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/29.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1944,8 +1426,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/1.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/2.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/1.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/2.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -1974,8 +1456,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/3.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/4.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/3.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/4.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -2004,8 +1486,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/5.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/6.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/5.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/6.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -2034,8 +1516,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/8.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/9.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/8.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/9.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -2064,8 +1546,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/11.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/12.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/11.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/12.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -2094,8 +1576,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/15.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/16.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/15.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/16.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -2124,8 +1606,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/13.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/14.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/13.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/14.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -2154,8 +1636,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a href="product.html">
-                                                <img class="primary-img" src="/DOANPHP/Src/img/products/1.jpg" alt="single-product">
-                                                <img class="secondary-img" src="/DOANPHP/Src/img/products/7.jpg" alt="single-product">
+                                                <img class="primary-img" src="/img/products/1.jpg" alt="single-product">
+                                                <img class="secondary-img" src="/img/products/7.jpg" alt="single-product">
                                             </a>
                                             <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                         </div>
@@ -2191,8 +1673,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/42.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/43.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/42.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/43.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2221,8 +1703,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/40.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/41.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/40.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/41.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2251,8 +1733,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/39.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/38.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/39.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/38.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2281,8 +1763,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/36.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/37.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/36.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/37.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2311,8 +1793,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/35.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/36.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/35.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/36.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2341,8 +1823,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/34.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/35.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/34.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/35.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2371,8 +1853,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/32.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/33.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/32.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/33.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2401,8 +1883,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/1.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/7.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/1.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/7.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2438,8 +1920,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/43.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/42.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/43.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/42.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2468,8 +1950,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/41.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/39.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/41.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/39.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2498,8 +1980,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/5.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/6.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/5.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/6.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2528,8 +2010,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/9.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/10.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/9.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/10.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2558,8 +2040,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/11.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/12.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/11.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/12.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2588,8 +2070,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/3.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/4.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/3.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/4.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2625,8 +2107,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/17.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/18.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/17.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/18.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2655,8 +2137,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/19.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/20.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/19.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/20.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2685,8 +2167,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/20.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/21.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/20.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/21.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2715,8 +2197,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/21.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/22.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/21.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/22.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2745,8 +2227,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/23.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/24.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/23.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/24.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2775,8 +2257,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/24.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/25.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/24.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/25.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2805,8 +2287,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/26.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/27.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/26.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/27.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2835,8 +2317,8 @@
                                     <!-- Product Image Start -->
                                     <div class="pro-img">
                                         <a href="product.html">
-                                            <img class="primary-img" src="/DOANPHP/Src/img/products/28.jpg" alt="single-product">
-                                            <img class="secondary-img" src="/DOANPHP/Src/img/products/29.jpg" alt="single-product">
+                                            <img class="primary-img" src="/img/products/28.jpg" alt="single-product">
+                                            <img class="secondary-img" src="/img/products/29.jpg" alt="single-product">
                                         </a>
                                         <a href="#" class="quick_view" data-toggle="modal" data-target="#myModal" title="Quick View"><i class="lnr lnr-magnifier"></i></a>
                                     </div>
@@ -2882,7 +2364,7 @@
                    <!-- Single Blog Start -->
                    <div class="single-latest-blog">
                        <div class="blog-img">
-                           <a href="single-blog.html"><img src="/DOANPHP/Src/img/blog/1.jpg" alt="blog-image"></a>
+                           <a href="single-blog.html"><img src="/img/blog/1.jpg" alt="blog-image"></a>
                        </div>
                        <div class="blog-desc">
                            <h4><a href="single-blog.html">At wisi enim ad minim veniam.</a></h4>
@@ -2901,7 +2383,7 @@
                    <!-- Single Blog Start -->
                    <div class="single-latest-blog">
                        <div class="blog-img">
-                           <a href="single-blog.html"><img src="/DOANPHP/Src/img/blog/2.jpg" alt="blog-image"></a>
+                           <a href="single-blog.html"><img src="/img/blog/2.jpg" alt="blog-image"></a>
                        </div>
                        <div class="blog-desc">
                            <h4><a href="single-blog.html">Dt wisi enim ad minim veniam.</a></h4>
@@ -2920,7 +2402,7 @@
                    <!-- Single Blog Start -->
                    <div class="single-latest-blog">
                        <div class="blog-img">
-                           <a href="single-blog.html"><img src="/DOANPHP/Src/img/blog/1.jpg" alt="blog-image"></a>
+                           <a href="single-blog.html"><img src="/img/blog/1.jpg" alt="blog-image"></a>
                        </div>
                        <div class="blog-desc">
                            <h4><a href="single-blog.html">At wisi enim ad minim veniam.</a></h4>
@@ -2939,7 +2421,7 @@
                    <!-- Single Blog Start -->
                    <div class="single-latest-blog">
                        <div class="blog-img">
-                           <a href="single-blog.html"><img src="/DOANPHP/Src/img/blog/2.jpg" alt="blog-image"></a>
+                           <a href="single-blog.html"><img src="/img/blog/2.jpg" alt="blog-image"></a>
                        </div>
                        <div class="blog-desc">
                            <h4><a href="single-blog.html">Dt wisi enim ad minim veniam.</a></h4>
@@ -2973,47 +2455,47 @@
                 <div class="row no-gutters">
                     <div class="col-lg-3">
                         <div class="col-img">
-                            <img src="/DOANPHP/Src/img/banner/h1-band1.jpg" alt="">
+                            <img src="/img/banner/h1-band1.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <!-- Brand Banner Start -->
                         <div class="brand-banner owl-carousel">
                             <div class="single-brand">
-                                <a href="#"><img class="img" src="/DOANPHP/Src/img/brand/1.jpg" alt="brand-image"></a>
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/2.jpg" alt="brand-image"></a>
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/3.jpg" alt="brand-image"></a>
+                                <a href="#"><img class="img" src="/img/brand/1.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/2.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/3.jpg" alt="brand-image"></a>
                             </div>
                             <div class="single-brand">
-                                <a href="#"><img class="img" src="/DOANPHP/Src/img/brand/1.jpg" alt="brand-image"></a>
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/2.jpg" alt="brand-image"></a>
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/3.jpg" alt="brand-image"></a>
+                                <a href="#"><img class="img" src="/img/brand/1.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/2.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/3.jpg" alt="brand-image"></a>
                             </div>
                             <div class="single-brand">
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/1.jpg" alt="brand-image"></a>
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/2.jpg" alt="brand-image"></a>
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/3.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/1.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/2.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/3.jpg" alt="brand-image"></a>
 
                             </div>
                             <div class="single-brand">
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/2.jpg" alt="brand-image"></a>
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/3.jpg" alt="brand-image"></a>
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/4.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/2.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/3.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/4.jpg" alt="brand-image"></a>
                             </div>
                             <div class="single-brand">
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/2.jpg" alt="brand-image"></a>
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/3.jpg" alt="brand-image"></a>
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/4.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/2.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/3.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/4.jpg" alt="brand-image"></a>
                             </div>
                             <div class="single-brand">
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/2.jpg" alt="brand-image"></a>
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/3.jpg" alt="brand-image"></a>
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/4.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/2.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/3.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/4.jpg" alt="brand-image"></a>
                             </div>
                             <div class="single-brand">
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/2.jpg" alt="brand-image"></a>
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/3.jpg" alt="brand-image"></a>
-                                <a href="#"><img src="/DOANPHP/Src/img/brand/4.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/2.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/3.jpg" alt="brand-image"></a>
+                                <a href="#"><img src="/img/brand/4.jpg" alt="brand-image"></a>
                             </div>
                         </div>
                         <!-- Brand Banner End -->                        
@@ -3021,7 +2503,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="col-img">
-                            <img src="/DOANPHP/Src/img/banner/h1-band2.jpg" alt="">
+                            <img src="/img/banner/h1-band2.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -3033,12 +2515,12 @@
             <div class="container big-banner-box">
                 <div class="col-img">
                     <a href="#">
-                    <img src="/DOANPHP/Src/img/banner/5.jpg" alt="">
+                    <img src="/img/banner/5.jpg" alt="">
                     </a>
                 </div>
                 <div class="col-img">
                     <a href="#">
-                    <img src="/DOANPHP/Src/img/banner/h1-banner3.jpg" alt="">
+                    <img src="/img/banner/h1-banner3.jpg" alt="">
                     </a>
                 </div>
             </div>
@@ -3118,30 +2600,30 @@
                                         <!-- Thumbnail Large Image start -->
                                         <div class="tab-content">
                                             <div id="thumb-1" class="tab-pane fade show active">
-                                                <a data-fancybox="images" href="/DOANPHP/Src/img/products/35.jpg"><img src="/DOANPHP/Src/img/products/35.jpg" alt="product-view"></a>
+                                                <a data-fancybox="images" href="/img/products/35.jpg"><img src="/img/products/35.jpg" alt="product-view"></a>
                                             </div>
                                             <div id="thumb-2" class="tab-pane fade">
-                                                <a data-fancybox="images" href="/DOANPHP/Src/img/products/13.jpg"><img src="/DOANPHP/Src/img/products/13.jpg" alt="product-view"></a>
+                                                <a data-fancybox="images" href="/img/products/13.jpg"><img src="/img/products/13.jpg" alt="product-view"></a>
                                             </div>
                                             <div id="thumb-3" class="tab-pane fade">
-                                                <a data-fancybox="images" href="/DOANPHP/Src/img/products/15.jpg"><img src="/DOANPHP/Src/img/products/15.jpg" alt="product-view"></a>
+                                                <a data-fancybox="images" href="/img/products/15.jpg"><img src="/img/products/15.jpg" alt="product-view"></a>
                                             </div>
                                             <div id="thumb-4" class="tab-pane fade">
-                                                <a data-fancybox="images" href="/DOANPHP/Src/img/products/4.jpg"><img src="/DOANPHP/Src/img/products/4.jpg" alt="product-view"></a>
+                                                <a data-fancybox="images" href="/img/products/4.jpg"><img src="/img/products/4.jpg" alt="product-view"></a>
                                             </div>
                                             <div id="thumb-5" class="tab-pane fade">
-                                                <a data-fancybox="images" href="/DOANPHP/Src/img/products/5.jpg"><img src="/DOANPHP/Src/img/products/5.jpg" alt="product-view"></a>
+                                                <a data-fancybox="images" href="/img/products/5.jpg"><img src="/img/products/5.jpg" alt="product-view"></a>
                                             </div>
                                         </div>
                                         <!-- Thumbnail Large Image End -->
                                         <!-- Thumbnail Image End -->
                                         <div class="product-thumbnail mt-20">
                                             <div class="thumb-menu owl-carousel nav tabs-area" role="tablist">
-                                                <a class="active" data-toggle="tab" href="#thumb-1"><img src="/DOANPHP/Src/img/products/35.jpg" alt="product-thumbnail"></a>
-                                                <a data-toggle="tab" href="#thumb-2"><img src="/DOANPHP/Src/img/products/13.jpg" alt="product-thumbnail"></a>
-                                                <a data-toggle="tab" href="#thumb-3"><img src="/DOANPHP/Src/img/products/15.jpg" alt="product-thumbnail"></a>
-                                                <a data-toggle="tab" href="#thumb-4"><img src="/DOANPHP/Src/img/products/4.jpg" alt="product-thumbnail"></a>
-                                                <a data-toggle="tab" href="#thumb-5"><img src="/DOANPHP/Src/img/products/5.jpg" alt="product-thumbnail"></a>
+                                                <a class="active" data-toggle="tab" href="#thumb-1"><img src="/img/products/35.jpg" alt="product-thumbnail"></a>
+                                                <a data-toggle="tab" href="#thumb-2"><img src="/img/products/13.jpg" alt="product-thumbnail"></a>
+                                                <a data-toggle="tab" href="#thumb-3"><img src="/img/products/15.jpg" alt="product-thumbnail"></a>
+                                                <a data-toggle="tab" href="#thumb-4"><img src="/img/products/4.jpg" alt="product-thumbnail"></a>
+                                                <a data-toggle="tab" href="#thumb-5"><img src="/img/products/5.jpg" alt="product-thumbnail"></a>
                                             </div>
                                         </div>
                                         <!-- Thumbnail image end -->
@@ -3210,31 +2692,31 @@
     <!-- Main Wrapper End Here -->
 
     <!-- jquery 3.2.1 -->
-    <script src="/DOANPHP/Src/js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="/js/vendor/jquery-3.2.1.min.js"></script>
     <!-- Countdown js -->
-    <script src="/DOANPHP/Src/js/jquery.countdown.min.js"></script>
+    <script src="/js/jquery.countdown.min.js"></script>
     <!-- Mobile menu js -->
-    <script src="/DOANPHP/Src/js/jquery.meanmenu.min.js"></script>
+    <script src="/js/jquery.meanmenu.min.js"></script>
     <!-- ScrollUp js -->
-    <script src="/DOANPHP/Src/js/jquery.scrollUp.js"></script>
+    <script src="/js/jquery.scrollUp.js"></script>
     <!-- Nivo slider js -->
-    <script src="/DOANPHP/Src/js/jquery.nivo.slider.js"></script>
+    <script src="/js/jquery.nivo.slider.js"></script>
     <!-- Fancybox js -->
-    <script src="/DOANPHP/Src/js/jquery.fancybox.min.js"></script>
+    <script src="/js/jquery.fancybox.min.js"></script>
     <!-- Jquery nice select js -->
-    <script src="/DOANPHP/Src/js/jquery.nice-select.min.js"></script>
+    <script src="/js/jquery.nice-select.min.js"></script>
     <!-- Jquery ui price slider js -->
-    <script src="/DOANPHP/Src/js/jquery-ui.min.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
     <!-- Owl carousel -->
-    <script src="/DOANPHP/Src/js/owl.carousel.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
     <!-- Bootstrap popper js -->
-    <script src="/DOANPHP/Src/js/popper.min.js"></script>
+    <script src="/js/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="/DOANPHP/Src/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <!-- Plugin js -->
-    <script src="/DOANPHP/Src/js/plugins.js"></script>
+    <script src="/js/plugins.js"></script>
     <!-- Main activaion js -->
-    <script src="/DOANPHP/Src/js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>

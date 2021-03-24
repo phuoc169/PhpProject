@@ -41,10 +41,18 @@ class Router{
                 $$key = $value;
             }
             ob_start();
-            include_once __DIR__."/Views/$view.php";
-            $content = ob_get_clean();
+            if($view=="products/index"){
+                include_once __DIR__."/Views/products/ProductByCategories.php";
+                $productbyCategory=ob_get_clean();
+                ob_start();
+                include_once __DIR__."/Views/$view.php";
+                $content = ob_get_clean();
+                
+            }else{
+                include_once __DIR__."/Views/$view.php";
+                $content = ob_get_clean();
+            }
             include_once __DIR__."/Views/_layout.php";
-
         }
     }
 ?>

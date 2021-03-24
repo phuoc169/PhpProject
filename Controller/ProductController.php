@@ -11,19 +11,19 @@ class ProductController{
                 'products' => $products
             ]);
         }
-        public function create()
+        public function create(Router $router)
         {
-            echo "Đây là trang Create";
+            echo $router->RenderView('products/create');
         }
 
-        public function update()
+        public function update(Router $router)
         {
-            echo "Đây là trang Update";
+            echo $router->RenderView('products/update');
         }
         
-        public function delete()
-        {
-            echo "Đây là trang Delete";
-        } 
+        // public function delete(Router $router)
+        // {
+        //     echo $router->RenderView('products/update');
+        // } 
     }
 ?>
