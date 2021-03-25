@@ -13,5 +13,6 @@ $router->get('/products/update', [$ProdController, 'update']);
 $router->post('/products/update', [$ProdController, 'update']);
 $router->get('/products/delete', [$ProdController, 'delete']);
 $router->post('/products/delete', [$ProdController, 'delete']);
+$router->get('/products/product_detail', [$ProdController, 'product_detail']);
 $router->resolve();
 ?>

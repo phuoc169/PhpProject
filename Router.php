@@ -38,20 +38,23 @@ class Router{
         {
             foreach($params as $key => $value)
             {
-                $$key = $value;
+                $$key = $value;  //tạo 1 array variable để lưu giá trị của param
+            }
+            ob_start();//lưu view vào buffer
+            if($view=="products/index"){
+                include_once __DIR__."/Views/products/ProductByCategories.php";//lấy ra partials view ProductByCategories
+                $productbyCategory=ob_get_clean(); //lấy ra buffer hiện tại và xóa buffer hiện tại đi
+                ob_start();// tương tự trên
+                include_once __DIR__."/Views/$view.php";//lấy ra view hiện tại 
+                $content = ob_get_clean();// tương tự trên
+                
+            }else if($view=="products/product_detail"){
+                include_once __DIR__."/Views/$view.php";
+                $content = ob_get_clean();
             }
             ob_start();
-            if($view=="products/index"){
-                include_once __DIR__."/Views/products/ProductByCategories.php";
-                $productbyCategory=ob_get_clean();
-                ob_start();
-                include_once __DIR__."/Views/$view.php";
-                $content = ob_get_clean();
-                
-            }else{
-                include_once __DIR__."/Views/$view.php";
-                $content = ob_get_clean();
-            }
+            include_once __DIR__."/Views/PartialsView/GetCategories.php";
+            $getcategories=ob_get_clean();
             include_once __DIR__."/Views/_layout.php";
         }
     }
