@@ -3,7 +3,7 @@
         <nav>
             <ul class="vertical-menu-list">
             <?php foreach($categories as $category){?>
-                <li class=""><a href="shop.html"><span><img src="/img/vertical-menu/1.png" alt="menu-icon"></span><?php echo $category['CategoryName']?><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                <li class=""><a href=<?php echo "/products/shop?ByCategory=".$category['CateId']?>><span><img src="/img/vertical-menu/1.png" alt="menu-icon"></span><?php echo $category['CategoryName']?><i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 <?php }?>
                 <!-- More Categoies Start -->
                 <li id="cate-toggle" class="category-menu v-cat-menu">

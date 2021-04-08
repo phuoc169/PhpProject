@@ -20,30 +20,18 @@
                             <!-- Thumbnail Large Image start -->
                             <div class="tab-content">
                                 <div id="thumb1" class="tab-pane fade show active">
-                                    <a data-fancybox="images" href="/img/products/35.jpg"><img src="/img/products/35.jpg" alt="product-view"></a>
+                                    <a data-fancybox="images" href=<?php echo "/".$productDetail['ProductImage']?>><img src=<?php echo "/".$productDetail['ProductImage']?> alt="product-view"></a>
                                 </div>
                                 <div id="thumb2" class="tab-pane fade">
-                                    <a data-fancybox="images" href="/img/products/13.jpg"><img src="/img/products/13.jpg" alt="product-view"></a>
-                                </div>
-                                <div id="thumb3" class="tab-pane fade">
-                                    <a data-fancybox="images" href="/img/products/15.jpg"><img src="/img/products/15.jpg" alt="product-view"></a>
-                                </div>
-                                <div id="thumb4" class="tab-pane fade">
-                                    <a data-fancybox="images" href="/img/products/4.jpg"><img src="/img/products/4.jpg" alt="product-view"></a>
-                                </div>
-                                <div id="thumb5" class="tab-pane fade">
-                                    <a data-fancybox="images" href="/img/products/5.jpg"><img src="/img/products/5.jpg" alt="product-view"></a>
+                                    <a data-fancybox="images" href=<?php echo "/".$productDetail['ProductImage2']?>><img src=<?php echo "/".$productDetail['ProductImage2']?> alt="product-view"></a>
                                 </div>
                             </div>
                             <!-- Thumbnail Large Image End -->
                             <!-- Thumbnail Image End -->
                             <div class="product-thumbnail mt-15">
                                 <div class="thumb-menu owl-carousel nav tabs-area" role="tablist">
-                                    <a class="active" data-toggle="tab" href="#thumb1"><img src="/img/products/35.jpg" alt="product-thumbnail"></a>
-                                    <a data-toggle="tab" href="#thumb2"><img src="/img/products/13.jpg" alt="product-thumbnail"></a>
-                                    <a data-toggle="tab" href="#thumb3"><img src="/img/products/15.jpg" alt="product-thumbnail"></a>
-                                    <a data-toggle="tab" href="#thumb4"><img src="/img/products/4.jpg" alt="product-thumbnail"></a>
-                                    <a data-toggle="tab" href="#thumb5"><img src="/img/products/5.jpg" alt="product-thumbnail"></a>
+                                    <a class="active" data-toggle="tab" href="#thumb1"><img src=<?php echo "/".$productDetail['ProductImage']?> alt="product-thumbnail"></a>
+                                    <a data-toggle="tab" href="#thumb2"><img src=<?php echo "/".$productDetail['ProductImage2']?> alt="product-thumbnail"></a>
                                 </div>
                             </div>
                             <!-- Thumbnail image end -->
@@ -67,39 +55,14 @@
                                     </div>
                                 </div>
                                 <div class="pro-price mtb-30">
-                                    <p class="d-flex align-items-center"><span class="prev-price"><?php echo $productDetail['ProductPrice']?></span><span class="price"><?php echo $productDetail['ProductPrice']-$productDetail['ProductPrice']*0.15?></span><span class="saving-price">save 15%</span></p>
+                                    <p class="d-flex align-items-center"><span class="prev-price"><?php echo $productDetail['ProductPrice']?></span><span class="price"><?php echo $productDetail['ProductPrice']-$productDetail['ProductPrice']*($productDetail['Discount']/100)?></span><span class="saving-price"><?php echo "save ".$productDetail['Discount']."%"?></span></p>
                                 </div>
-                                <p class="mb-20 pro-desc-details">Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
-                                <div class="product-size mb-20 clearfix">
-                                    <label>Size</label>
-                                    <select class="">
-                                      <option>S</option>
-                                      <option>M</option>
-                                      <option>L</option>
-                                    </select>
-                                </div>
-                                <div class="color clearfix mb-20">
-                                    <label>color</label>
-                                    <ul class="color-list">
-                                        <li>
-                                            <a class="orange active" href="#"></a>
-                                        </li>
-                                        <li>
-                                            <a class="paste" href="#"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <p class="mb-20 pro-desc-details"><?php echo $productDetail['Description']?></p>
                                 <div class="box-quantity d-flex hot-product2">
-                                    <form action="#">
-                                        <input class="quantity mr-15" type="number" min="1" value="1">
-                                    </form>
+                                        <input title=<?php echo "quantity".$productDetail['ProductId']?> class="quantity mr-15" type="number" min="1" value="1">
                                     <div class="pro-actions">
                                         <div class="actions-primary">
-                                            <a href="cart.html" title="" data-original-title="Add to Cart"> + Add To Cart</a>
-                                        </div>
-                                        <div class="actions-secondary">
-                                            <a href="compare.html" title="" data-original-title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                            <a href="wishlist.html" title="" data-original-title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
+                                            <a href="#"  onclick="return test(2,<?php echo "event,".$productDetail['ProductId']?>)" title="" data-original-title="Add to Cart"> + Add To Cart</a>
                                         </div>
                                     </div>
                                 </div>
@@ -139,104 +102,8 @@
                             </div>
                             <div id="review" class="tab-pane fade">
                                 <!-- Reviews Start -->
-                                <div class="review border-default universal-padding">
-                                    <div class="group-title">
-                                        <h2>customer review</h2>
-                                    </div>
-                                    <h4 class="review-mini-title">Truemart</h4>
-                                    <ul class="review-list">
-                                        <!-- Single Review List Start -->
-                                        <li>
-                                            <span>Quality</span>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <label>Truemart</label>
-                                        </li>
-                                        <!-- Single Review List End -->
-                                        <!-- Single Review List Start -->
-                                        <li>
-                                            <span>price</span>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <label>Review by <a href="https://themeforest.net/user/hastech">Truemart</a></label>
-                                        </li>
-                                        <!-- Single Review List End -->
-                                        <!-- Single Review List Start -->
-                                        <li>
-                                            <span>value</span>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <label>Posted on 7/20/18</label>
-                                        </li>
-                                        <!-- Single Review List End -->
-                                    </ul>
-                                </div>
+                                <div class="fb-comments" data-href=<?php echo "http://localhost:8080/products/product_detail?ProductId=".$productDetail['ProductId']?> data-width="500" data-numposts="10"></div>
                                 <!-- Reviews End -->
-                                <!-- Reviews Start -->
-                                <div class="review border-default universal-padding mt-30">
-                                    <h2 class="review-title mb-30">You're reviewing: <br><span>Faded Short Sleeves T-shirt</span></h2>
-                                    <p class="review-mini-title">your rating</p>
-                                    <ul class="review-list">
-                                        <!-- Single Review List Start -->
-                                        <li>
-                                            <span>Quality</span>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </li>
-                                        <!-- Single Review List End -->
-                                        <!-- Single Review List Start -->
-                                        <li>
-                                            <span>price</span>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </li>
-                                        <!-- Single Review List End -->
-                                        <!-- Single Review List Start -->
-                                        <li>
-                                            <span>value</span>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </li>
-                                        <!-- Single Review List End -->
-                                    </ul>
-                                    <!-- Reviews Field Start -->
-                                    <div class="riview-field mt-40">
-                                        <form autocomplete="off" action="#">
-                                            <div class="form-group">
-                                                <label class="req" for="sure-name">Nickname</label>
-                                                <input type="text" class="form-control" id="sure-name" required="required">
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="req" for="subject">Summary</label>
-                                                <input type="text" class="form-control" id="subject" required="required">
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="req" for="comments">Review</label>
-                                                <textarea class="form-control" rows="5" id="comments" required="required"></textarea>
-                                            </div>
-                                            <button type="submit" class="customer-btn">Submit Review</button>
-                                        </form>
-                                    </div>
-                                    <!-- Reviews Field Start -->
-                                </div>
                                 <!-- Reviews End -->
                             </div>
                         </div>

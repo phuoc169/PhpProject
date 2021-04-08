@@ -31,6 +31,9 @@ class Router{
                call_user_func($fn,$this);
             }
             else{
+                echo '<pre>';
+                echo var_dump($_SERVER['PATH_INFO']);
+                echo '</pre>';
                 echo "Page not found"; 
             }
         }
@@ -48,9 +51,9 @@ class Router{
                 include_once __DIR__."/Views/$view.php";//lấy ra view hiện tại 
                 $content = ob_get_clean();// tương tự trên
                 
-            }else if($view=="products/product_detail"){
+            }else {
                 include_once __DIR__."/Views/$view.php";
-                $content = ob_get_clean();
+                $content = ob_get_clean(); 
             }
             ob_start();
             include_once __DIR__."/Views/PartialsView/GetCategories.php";

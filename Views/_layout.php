@@ -3,7 +3,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Home-3 || Truemart Responsive Html5 Ecommerce Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, block-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/myalert.css">
     <!-- Favicons -->
     <link rel="shortcut icon" href="/img/favicon.ico">
     <!-- Fontawesome css -->
@@ -36,6 +37,12 @@
     <!-- Modernizer js -->
     <script src="/js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
+<style>
+.alert {
+  opacity: 1;
+  transition: opacity 0.6s; /* 600ms to fade out */
+}
+</style>
 <html class="no-js" lang="zxx">
     <!-- Banner Popup Start -->
             <div class="popup_banner">
@@ -76,8 +83,8 @@
                         <div class="header-top">
                             <ul>
                                 <li><a href="#">Free Shipping on order over $99</a></li>
-                                <li><a href="#">Shopping Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="/products/shoppingcart">Shopping Cart</a></li>
+                                <li><a href="/products/checkout">Checkout</a></li>
                             </ul>
                             <ul>                                          
                                 <li><span>Language</span> <a href="#">English<i class="lnr lnr-chevron-down"></i></a>
@@ -99,10 +106,21 @@
                                 </li>
                                 <li><a href="#">My Account<i class="lnr lnr-chevron-down"></i></a>
                                     <!-- Dropdown Start -->
-                                    <ul class="ht-dropdown">
-                                        <li><a href="login.html">Login</a></li>
-                                        <li><a href="register.html">Register</a></li>
+                                    <?php
+
+use app\Database;
+
+                                    if(!empty($_COOKIE['Email'])&&!empty($_COOKIE['Password'])){?>
+                                        <ul class="ht-dropdown">
+                                        <li><a href="/users/login">Profile</a></li>
+                                        <li><a href="/users/logout">Logout</a></li>
                                     </ul>
+                                    <?php }else{?>
+                                        <ul class="ht-dropdown">
+                                        <li><a href="/users/login">Login</a></li>
+                                        <li><a href="/users/register">Register</a></li>
+                                    </ul>
+                                    <?php }?>
                                     <!-- Dropdown End -->
                                 </li> 
                             </ul>
@@ -124,7 +142,7 @@
                             <!-- Categorie Search Box Start Here -->
                             <div class="col-lg-5 col-md-8 ml-auto mr-auto col-10">
                                 <div class="categorie-search-box">
-                                    <form action="/products">
+                                    <form action="/products/shop">
                                         <div class="form-group">
                                             <select class="bootstrap-select" name="ByCategory">
                                                 <option value="">All categories</option>
@@ -133,7 +151,7 @@
                                                     <?php }?>
                                             </select>
                                         </div>
-                                        <input type="text" name="ByName" placeholder="I’m shopping for...">
+                                        <input type="text" name="ByName" onchange="return Search()" placeholder="I’m shopping for...">
                                         <button type="submit"><i class="lnr lnr-magnifier"></i></button>
                                     </form>
                                 </div>
@@ -143,54 +161,52 @@
                             <div class="col-lg-4 col-md-12">
                                 <div class="cart-box mt-all-30">
                                     <ul class="d-flex justify-content-lg-end justify-content-center align-items-center">
-                                        <li><a href="#"><i class="lnr lnr-cart"></i><span class="my-cart"><span class="total-pro">2</span><span>cart</span></span></a>
-                                            <ul class="ht-dropdown cart-box-width">
+                                    <?php if(isset($_SESSION['shoppingcart'])){  $subtotal=0?>
+                                        <li><a href="/products/shoppingcart"><i class="lnr lnr-cart"></i><span class="my-cart"><span class="total-pro"><?php echo count($_SESSION['shoppingcart'])?></span><span>cart</span></span></a>
+                                        <ul class="ht-dropdown cart-box-width">
                                                 <li>
                                                     <!-- Cart Box Start -->
+                                                    <?php
+                                                    foreach($_SESSION["shoppingcart"] as $CartItem){
+                                                        $prod = Database::$db->getProductById($CartItem['prod_id']);
+                                                        $product=reset($prod);
+                                                        $total=$product['ProductPrice']*$CartItem['quantity'];
+                                                        $subtotal+=$total;?>
                                                     <div class="single-cart-box">
                                                         <div class="cart-img">
-                                                            <a href="#"><img src="/img/products/1.jpg" alt="cart-image"></a>
-                                                            <span class="pro-quantity">1X</span>
+                                                            <a href="#"><img src=<?php echo "/".$product['ProductImage']?> alt="cart-image"></a>
+                                                            <span class="pro-quantity"><?php echo $CartItem['quantity']."X"?></span>
                                                         </div>
                                                         <div class="cart-content">
-                                                            <h6><a href="product.html">Printed Summer Red </a></h6>
-                                                            <span class="cart-price">27.45</span>
-                                                            <span>Size: S</span>
-                                                            <span>Color: Yellow</span>
+                                                            <h6><a class="productname" href="product.html"><?php echo $product['ProductName']?></a></h6>
+                                                            <span class="cart-price"><?php echo $total."VNĐ"?></span>
                                                         </div>
-                                                        <a class="del-icone" href="#"><i class="ion-close"></i></a>
+                                                        
+                                                        <a class="del-icone" onclick="return removeCartIndex(<?php echo 'event,'.$product['ProductId']?>)" href="#"><i class="ion-close"></i></a>
                                                     </div>
+                                                    <?php }?>
                                                     <!-- Cart Box End -->
                                                     <!-- Cart Box Start -->
-                                                    <div class="single-cart-box">
-                                                        <div class="cart-img">
-                                                            <a href="#"><img src="/img/products/2.jpg" alt="cart-image"></a>
-                                                            <span class="pro-quantity">1X</span>
-                                                        </div>
-                                                        <div class="cart-content">
-                                                            <h6><a href="product.html">Printed Round Neck</a></h6>
-                                                            <span class="cart-price">45.00</span>
-                                                            <span>Size: XL</span>
-                                                            <span>Color: Green</span>
-                                                        </div>
-                                                        <a class="del-icone" href="#"><i class="ion-close"></i></a>
-                                                    </div>
                                                     <!-- Cart Box End -->
                                                     <!-- Cart Footer Inner Start -->
                                                     <div class="cart-footer">
                                                     <ul class="price-content">
-                                                        <li>Subtotal <span>$57.95</span></li>
-                                                        <li>Shipping <span>$7.00</span></li>
+                                                        <li>Subtotal <span><?php echo $subtotal."VNĐ"?></span></li>
+                                                        <!-- <li>Shipping <span>$7.00</span></li>
                                                         <li>Taxes <span>$0.00</span></li>
-                                                        <li>Total <span>$64.95</span></li>
+                                                        <li>Total <span>$64.95</span></li> -->
                                                     </ul>
                                                         <div class="cart-actions text-center">
-                                                            <a class="cart-checkout" href="checkout.html">Checkout</a>
+                                                            <a class="cart-checkout" href="/products/checkout">Checkout</a>
                                                         </div>
                                                     </div>
                                                     <!-- Cart Footer Inner End -->
                                                 </li>
                                             </ul>
+                                    <?php }else{?>
+                                        <li><a href="/products/shoppingcart"><i class="lnr lnr-cart"></i><span class="my-cart"><span class="total-pro">0</span><span>cart</span></span></a>
+                                        <?php }?>
+                                            
                                         </li>
                                         <li><a href="#"><i class="lnr lnr-heart"></i><span class="my-cart"><span>Wish</span><span>list (0)</span></span></a>
                                         </li>
@@ -229,7 +245,7 @@
                                             </ul>
                                             <!-- Home Version Dropdown End -->
                                         </li>
-                                        <li><a href="shop.html">shop<i class="fa fa-angle-down"></i></a>
+                                        <li><a href="/products/shop">shop<i class="fa fa-angle-down"></i></a>
                                             <!-- Home Version Dropdown Start -->
                                             <ul class="ht-dropdown dropdown-style-two">
                                                 <li><a href="product.html">product details</a></li>
@@ -275,7 +291,7 @@
                                                 </ul>
                                                 <!-- Home Version Dropdown End -->
                                             </li>
-                                            <li><a href="shop.html">shop</a>
+                                            <li><a href="/products/shop">shop</a>
                                                 <!-- Mobile Menu Dropdown Start -->
                                                 <ul>
                                                     <li><a href="product.html">product details</a></li>
@@ -335,8 +351,8 @@
                     <div class="slider-wrapper theme-default">
                         <!-- Slider Background  Image Start-->
                         <div id="slider" class="nivoSlider">
-                            <a href="shop.html"><img src="/img/slider/5.jpg" data-thumb="/img/slider/5.jpg" alt="" title="#htmlcaption"></a>
-                            <a href="shop.html"><img src="/img/slider/6.jpg" data-thumb="/img/slider/6.jpg" alt="" title="#htmlcaption2"></a>
+                            <a href="/products/shop"><img style="height:287.5px;width:1006.25px" src="/images/banners/banner1.jpg" data-thumb="/img/slider/5.jpg" alt="" title="#htmlcaption"></a>
+                            <a href="/products/shop"><img style="height:287.5px;width:1006.25px" src="/images/banners/banner2.jpg" data-thumb="/img/slider/6.jpg" alt="" title="#htmlcaption2"></a>
                         </div>
                         <!-- Slider Background  Image Start-->
                     </div>
@@ -358,6 +374,81 @@
 
 <?php echo $content?> <!-- Render body -->
  <!-- jquery 3.2.1 -->
+
+
+ <script>
+// Get all elements with class="closebtn"
+var close = document.getElementsByClassName("closebtn");
+var i;
+
+// Loop through all close buttons
+for (i = 0; i < close.length; i++) {
+    // When someone clicks on a close button
+    close[i].onclick = function(){
+
+    // Get the parent of <span class="closebtn"> (<div class="alert">)
+    var div = this.parentElement;
+
+    // Set the opacity of div to 0 (transparent)
+    div.style.opacity = "0";
+
+    // Hide the div after 600ms (the same amount of milliseconds it takes to fade out)
+    setTimeout(function(){ div.style.display = "none"; }, 600);
+  }
+}
+function ValidateRegister(e)
+{
+    var firstname = document.getElementById("f-name");
+    var lastname = document.getElementById("l-name");
+    var email = document.getElementById("email");
+    var password = document.getElementById("pwd");
+    var confirmpass = document.getElementById("pwd-confirm");
+    var close = document.getElementsByClassName("closebtn");
+    var i;
+
+// Loop through all close buttons
+if(firstname.value.length==0 || lastname.value.length==0 || email.value.length==0 || password.value.length==0)
+{
+    if(firstname.value.length==0)
+    {
+        e.preventDefault();
+        document.getElementById("FirstNameValidate").style.display="block";
+        document.getElementById("FirstNameValidate").style.opacity="1";
+    }
+    if(lastname.value.length==0)
+    {
+        e.preventDefault();
+        document.getElementById("LastNameValidate").style.display="block";
+        document.getElementById("LastNameValidate").style.opacity="1";
+    }
+    if(email.value.length==0)
+    {
+        e.preventDefault();
+        document.getElementById("EmailValidate").style.display="block";
+        document.getElementById("EmailValidate").style.opacity="1";
+    }
+    if(password.value.length==0)
+    {
+        e.preventDefault();
+        document.getElementById("PasswordValidate").style.display="block";
+        document.getElementById("PasswordValidate").style.opacity="1";
+    }
+    return false
+}
+    // When someone clicks on a close button
+    else if(confirmpass.value!=password.value)
+    {
+        e.preventDefault();
+        document.getElementById("ConfirmPassValidate").style.display="block";
+        document.getElementById("ConfirmPassValidate").style.opacity="1";
+        return false
+    }
+
+}
+
+
+
+</script>
  <script src="/js/vendor/jquery-3.2.1.min.js"></script>
     <!-- Countdown js -->
     <script src="/js/jquery.countdown.min.js"></script>
@@ -383,6 +474,310 @@
     <script src="/js/plugins.js"></script>
     <!-- Main activaion js -->
     <script src="/js/main.js"></script>
+    <script>
+    // $(document).ready(function(){
+    // $(".addtocart").click(function(){
+    //     ProdId=$(".ProdId").val();
+    //     alert(ProdId)
+    //     ProdQuantity=$("[title|='quantity']").val();
+    //     $.ajax({
+    //         url:'products',
+    //         type: 'GET',
+    //         data:{'ProdId' : ProdId,'ProdQuantity':ProdQuantity},
+    //         success:function(result)
+    //         {
+    //            alert("da them thanh cong");
+    //         }
+            
+    //     })
+    //     return false;
+    // })
+    // })
+    // var Btnarray = $(".addtocart");
+    // var ProdIdArr=$(".ProdId");
+    // var ProdQuantityArr =$("[title='quantity']")
+    // var i;
+    // for(i=0;i<Btnarray.length;i++)
+    // {
+    //     var ProdId=ProdIdArr[i].value;
+    //     var ProdQuantity=ProdQuantityArr[i].value;
+    //     Btnarray[i].onclick=function(){
+    //         console.log(i)
+    //     $.ajax({
+    //         url:'products',
+    //         type: 'GET',
+    //         data:{'ProdId' : ProdId,'ProdQuantity':ProdQuantity},
+    //         success:function(result)
+    //         {
+    //            alert("da them thanh cong");
+    //         }
+            
+    //     })
+    //     return false;
+    //     }
+    // }
+    function test(curpath,e,id)
+    {
+        e.preventDefault()
+        var ProdQuantity =$("[title="+'quantity'+id+"]")
+        $.ajax({
+            url:'/products/addtocart',
+            type: 'GET',
+            data:{'ProdId' : id,'ProdQuantity':ProdQuantity.val(),'CurPath':curpath},
+            success:function(result)
+            {
+                $("body").html(result)
+                $('html, body').css({
+                    overflow: 'scroll ',
+                    height: 'auto'
+                });
+            }
+            
+        })
+    }
+</script>
+<script>
+    function removeCart(e,id)
+    {
+        e.preventDefault();
+            $.ajax({
+            url:'shoppingcart',
+            type: 'POST',
+            data:{'ProdId' : id},
+            success:function(result)
+            {
+                $('body').html(result);
+            }
+            
+        })
+    }
+    function removeCartIndex(e,id)
+    {
+            e.preventDefault();
+            $.ajax({
+            url:'/products/removecartindex',
+            type: 'POST',
+            data:{'ProdId' : id},
+            success:function(result)
+            {
+                $('body').html(result);
+            }
+            })
+        
+    }
+    function IncreaseQuantity(e,id)
+    {
+        var ProdQuantity =$(".quantity"+id)
+        e.preventDefault();
+            $.ajax({
+            url:'inscreasequantity',
+            type: 'POST',
+            data:{'ProductQuantity' : ProdQuantity.val(),'ProdId':id},
+            success:function(result)
+            {
+                $("body").html(result);
+            }
+            
+        })
+    }
+    function SortElement()
+    {
+        var sortby = document.getElementById('SortBy').value;
+        var container = document.getElementById('grid-view');
+        var i
+        console.log(sortby)
+        switch (sortby){
+            case 'NameAz':
+                var Products = $('.col-lg-4.col-md-4.col-sm-6.col-6');
+                var ProductNamearr=[]
+                var ProdElementArr=[]
+                for(i=0;i<Products.length;i++)
+                {
+                    ProductNamearr.push(Products[i].children[0].children[1].children[0].children[0].children[0].innerText.toLowerCase());
+                }
+                ProductNamearr.sort();
+
+                for(var j=0;j<ProductNamearr.length;j++)
+                {
+                    var was_found=false;
+                    for(var m=0;m<Products.length;m++)
+                    {
+                        if(Products[m].children[0].children[1].children[0].children[0].children[0].innerText.toLowerCase()==ProductNamearr[j]&&was_found==false)
+                        {
+                            ProdElementArr.push(Products[m]);
+                            console.log(Products[0])
+                            was_found=true;
+                        }
+                    }
+                    
+                }
+                container.children[0].innerHTML=''
+                for(var l=0;l<Products.length;l++)
+                {
+                    container.children[0].innerHTML+=ProdElementArr[l].outerHTML
+                }
+                break;
+                case 'NameZa':
+                    var Products = $('.col-lg-4.col-md-4.col-sm-6.col-6');
+                    var ProductNamearr=[]
+                    var ProdElementArr=[]
+                    for(i=0;i<Products.length;i++)
+                    {
+                        ProductNamearr.push(Products[i].children[0].children[1].children[0].children[0].children[0].innerText.toLowerCase());
+                    }
+                    ProductNamearr.sort();
+                    ProductNamearr.reverse();
+                    for(var j=0;j<ProductNamearr.length;j++)
+                    {
+                        var was_found=false;
+                        for(var m=0;m<Products.length;m++)
+                        {
+                            if(Products[m].children[0].children[1].children[0].children[0].children[0].innerText.toLowerCase()==ProductNamearr[j]&&was_found==false)
+                            {
+                                ProdElementArr.push(Products[m]);
+                                console.log(Products[0])
+                                was_found=true;
+                            }
+                        }
+                        
+                    }
+                    container.children[0].innerHTML=''
+                    for(var l=0;l<Products.length;l++)
+                    {
+                        container.children[0].innerHTML+=ProdElementArr[l].outerHTML
+                    }
+                    break;
+                case 'PriceLowHigh':
+                    var Products = $('.col-lg-4.col-md-4.col-sm-6.col-6');
+                    var ProductPricearr=[]
+                    var ProdElementArr=[]
+                    for(i=0;i<Products.length;i++)
+                    {
+                        ProductPricearr.push(parseInt(Products[i].children[0].children[1].children[0].children[1].children[0].innerText));
+                    }
+                    
+                    ProductPricearr.sort(function(a, b) {
+                    return a - b;
+                    });
+                    for(var j=0;j<ProductPricearr.length;j++)
+                    {
+                        var was_found=false;
+                        for(var m=0;m<Products.length;m++)
+                        {
+                            if(parseInt(Products[m].children[0].children[1].children[0].children[1].children[0].innerText)==ProductPricearr[j] && was_found==false)
+                            {
+                                ProdElementArr.push(Products[m]);
+                                console.log(Products[0])
+                                was_found=true;
+                            }
+                        }
+                        
+                    }
+                    container.children[0].innerHTML=''
+                    for(var l=0;l<Products.length;l++)
+                    {
+                        container.children[0].innerHTML+=ProdElementArr[l].outerHTML
+                    }
+                    break;
+                case 'PriceHighLow':
+                    var Products = $('.col-lg-4.col-md-4.col-sm-6.col-6');
+                    var ProductPricearr=[]
+                    var ProdElementArr=[]
+                    for(i=0;i<Products.length;i++)
+                    {
+                        ProductPricearr.push(parseInt(Products[i].children[0].children[1].children[0].children[1].children[0].innerText));
+                    }
+                    ProductPricearr.sort(function(a, b) {
+                    return a - b;
+                    });
+                    ProductPricearr.reverse();
+                    for(var j=0;j<ProductPricearr.length;j++)
+                    {
+                        var was_found=false;
+                        for(var m=0;m<Products.length;m++)
+                        {
+                            if(parseInt(Products[m].children[0].children[1].children[0].children[1].children[0].innerText)==ProductPricearr[j] && was_found==false)
+                            {
+                                ProdElementArr.push(Products[m]);
+                                console.log(Products[0])
+                                was_found=true;
+                            }
+                        }
+                        
+                    }
+                    container.children[0].innerHTML=''
+                    for(var l=0;l<Products.length;l++)
+                    {
+                        container.children[0].innerHTML+=ProdElementArr[l].outerHTML
+                    }
+                    break;
+        }
+        
+    }
+    
+</script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0&appId=629536127909216&autoLogAppEvents=1" nonce="q6lo8b42"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=AbUcoJ9FJx-Hp4StQcLrskPnHKj1aZpzVfutPWd5a8d9TArEoFIVWaLn_p3K7FosaK_TqJFuYaL6WS8b"></script>
+<script>
+var items=[];
+productName= document.getElementsByClassName('productname')
+productQuantity = document.getElementsByClassName('pro-quantity')
+productPrice = document.getElementsByClassName('cart-price')
+for(var i=0;i<productName.length;i++)
+{   
+    items.push({
+    name: productName[i].innerHTML,
+    unit_amount: {value: ((parseFloat(productPrice[i].innerHTML)/25000)/(parseFloat(productQuantity[i].innerHTML))).toFixed(2).toString(), currency_code: 'USD'},
+    quantity: productQuantity[i].innerHTML.slice(0, -1),
+    sku: 'haf001'
+})
+console.log(items)
+}
+paypal.Buttons(
+    {
+    createOrder: function(data, actions) {
+       
+      // This function sets up the details of the transaction, including the amount and line item details.
+      return actions.order.create({
+        purchase_units: [{
+                amount: {
+                    value: <?php echo $subtotal/25000?>,
+                    currency_code: 'USD',
+                    breakdown: {
+                        item_total: {value: <?php echo $subtotal/25000?>, currency_code: 'USD'}
+                    }
+                },
+                invoice_id: Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5),
+                items: items
+            }]
+
+      });
+    },onApprove: function(data, actions) {
+      // This function captures the funds from the transaction.
+      return actions.order.capture().then(function(details) {
+        // This function shows a transaction success message to your buyer.
+        var shippingaddress = document.getElementsByName('ShippingAddress');
+        var ordermessage=document.getElementsByName('ordermessage')
+        $.ajax({
+            url:'/paypal/payment_status',
+            type: 'POST',
+            data:{'payername' :details.payer.name.given_name,'ShippingAddress':shippingaddress[0].value,'ordermessage':ordermessage[0].value},
+            success:function(result)
+            {
+                $("body").html(result);
+            }
+            
+        })
+        alert('Transaction completed by ' + details.payer.name.given_name);
+      });
+    }
+  }).render('#paypal-button-container');</script>
+<!--
+JavaScript code to render PayPal checkout button and execute payment
+-->
+
+
     </body>
 
 </html>
